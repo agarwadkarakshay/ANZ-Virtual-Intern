@@ -1,2 +1,4 @@
 # ANZ-Virtual-Intern
 Task 1 Used Pandas to segregate customer data by each month and used Matplotlib to visualise transaction volume and mean transaction amount each day. Also visualised mean customer balance and mean payment amount by age, with gender means included, for each month in data set.
+Task 2
+Used Pandas to evaluate mean customer annual salary and then grouped customer data by customer id and mean. Used Scikit-learn for machine learning algorithms in Python. Linear regression model - used card present flag, merchant code, balance, age and amount from grouped data set to predict annual salary, obtained test Root Mean squared error 27836. Reverting back to original data set, created dummy variables for categorical variables including gender and age. Decision tree classifier and regression models - used modified data set to predict annual salary, obtained Root Mean squared error 22483 and 19338.
